@@ -5,3 +5,6 @@ streamlit
 langchain_core
 langchain_community
 langchain_ollama
+
+Use below command in terminal to run the app using streamlit
+streamlit run [your python filename]
