@@ -1,2 +1,11 @@
-Introduction to Natural Language Processing
+Natural Language Processing
 Developed an an AI-driven sentiment analysis system that will automatically process and analyze news articles to gauge market sentiment, and summarize the news at a weekly level to enhance the accuracy of their stock price predictions and optimize investment strategies. 
+
+Skills and Tools Covered
+1. Large Langauge Models
+2. Transformers
+3. Prompt Engineering
+4. Exploratory Data Analysis
+5. Data Manipulation
+6. Word Embeddings
+7. Text Preprocessing
