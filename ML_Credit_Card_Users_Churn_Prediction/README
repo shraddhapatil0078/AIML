@@ -1,0 +1,10 @@
+Advanced Machine Learning
+Analyzed the data and built a predictive model to determine if a customer will leave the credit card services or not and the reason behind it
+1. EDA
+2. Random forest
+3. Bagging
+4. Boosting
+5. SMOTE
+6. Cross Validation
+7. Data Preprocessing
+8. Hyperparameter Tuning
