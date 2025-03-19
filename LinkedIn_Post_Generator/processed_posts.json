@@ -1,0 +1,52 @@
+[
+    {
+        "text": "Call yourself an AI PM, AI Engineer, AI Consultant, or AI Lead\u2014but stick around long enough, and you\u2019ll realize one thing: you\u2019re a problem solver. And the real problem is not AI, it\u2019s data.\n\nYou\u2019ll spend most of your time wrangling messy real-world data rather than playing with the latest shiny AI tool.\n\nSo when someone tells me about 10 new advanced RAG methods they\u2019ve learned or a fancy multi-agent system they\u2019re excited about, my first question is: Does it actually work for your problem, your data, your business? How do you plan to evaluate it?\n\nFunny enough, but if you're always chasing the latest trends, you\u2019ll never actually catch up, because you don\u2019t know why, where, or when they should be used.",
+        "engagement": 0,
+        "line_count": 7,
+        "language": "English",
+        "tags": [
+            "Data",
+            "Ai"
+        ]
+    },
+    {
+        "text": "This is really interesting! A group of folks have launched a YouTube series called 'Building DeepSeek from Scratch' to teach how you can create your own mini-DeepSeek.\n\nRaj Abhijit and team are putting together a series of 15-minute videos, covering 40+ hours of content on how to build DeepSeek-like reasoning models.\n\nKey topics covered:\n1. Mixture of Experts (MoE)\n2. Multi-head Latent Attention (MLA)\n3. Rotary Positional Encodings (RoPE)\n4. Multi-token Prediction (MTP)\n5. Supervised Fine-Tuning (SFT)\n6. Group Relative Policy Optimization (GRPO)\n\nIn Raj\u2019s words:\n'After this, you\u2019ll be among the top 0.1% of ML/LLM engineers who can build DeepSeek\u2019s core ingredients on their own.'\n\nI watched the first video, and it looks promising. While I believe things can get exponentially more complex at scale, where DeepSeek-R1\u2019s real strength lies, building a small version to understand the core concepts seems like a valuable learning experience!",
+        "engagement": 0,
+        "line_count": 11,
+        "language": "English",
+        "tags": [
+            "Ml Llm",
+            "Deep Seek"
+        ]
+    },
+    {
+        "text": "To everyone busy posting about Perplexity\u2019s 'Deep Research' as a replacement for OpenAI's, have you actually used it?\n\nIt hallucinates like crazy. \ud83e\udd2f\n\nTake a look at this simple example: https://lnkd.in/e77TA_4y\n\nMany of the claims it generates are either linked to the wrong source or simply don\u2019t exist!\n\n\ud83d\ude05 None of the below claims it made can be verified (just a few examples, cmd+f and try looking for the numbers or claims)\n\n1. 'Generative AI now automates 20-45% of software engineering workflows through tools like Codeium's context-aware code generation'\n2. 'Expected 2026 EU AI Act compliance requirements driving $12B investment in governance tools'\n3. '45% faster product iteration cycles in manufacturing'\n\n\ud83d\ude05 I couldn\u2019t find any trace of many claims or numbers in the cited articles, these are just few examples from the report, I'm sure you'll find many more.\n\nNot supporting OpenAI or anything, but their deep research is way better. I\u2019d rather pay $200 than wade through a ton of hallucinations and fact-check everything myself.",
+        "engagement": 0,
+        "line_count": 13,
+        "language": "English",
+        "tags": [
+            "Open Ai",
+            "Ai"
+        ]
+    },
+    {
+        "text": "This repo is super impressive, it covers the entire end-to-end lifecycle of AI models, from data processing to training, evaluation and even deployment!\n\nOumi is one of the most comprehensive open-source platforms I\u2019ve come across, genuinely democratizing model building for everyone.\n\nKey features from the repo:\n\u26f3 Train and fine-tune models from 10M to 405B parameters using techniques like SFT, LoRA, QLoRA, and DPO\n\u26f3 Supports both text and multimodal models, including Llama, DeepSeek, Qwen, and Phi\n\u26f3 Synthesize and curate training data with LLM judges\n\u26f3 Deploy efficiently with inference engines like vLLM and SGLang\n\u26f3 Evaluate models across standard benchmarks\n\u26f3 Runs on anything\u2014laptops, clusters, or cloud (AWS, Azure, GCP, Lambda, etc.)\n\u26f3 Integrates with both open models and commercial APIs like OpenAI, Anthropic, and Vertex AI\n\nIt also includes starter notebooks for fine-tuning, distillation, LLM judges, and more. It\u2019s well thought out and already has \u2b50 6.5k stars on GitHub.\n\nKnowing Emmanouil (Manos) Koukoumidis and his passion for AI, I have no doubt this will become a go-to platform for open-source model building and deployment.\nHuge congrats, this is going to be big! \ud83d\ude80",
+        "engagement": 347,
+        "line_count": 13,
+        "language": "English",
+        "tags": [
+            "Ai",
+            "Open Source"
+        ]
+    },
+    {
+        "text": "Kafka, Hadoop, and Spark \u2013 Which One Should You Use? \u2699\ufe0f\ud83d\udcca\nWhen handling large-scale data, choosing the right technology can be challenging. Each tool offers unique strengths, and picking the right one depends on your data needs. Here's a simple breakdown:\n\n\ud83d\udd39 Apache Kafka \u2013 Best for Real-Time Data Streaming\n\u2705 Handles event-driven architectures and real-time data pipelines.\n\u2705 Ideal for tracking live data feeds, like social media streams or financial transactions.\n\ud83d\udccc Example Use Case: Processing 100,000+ tweets in real-time for sentiment analysis.\n\n\ud83d\udd39 Apache Hadoop \u2013 Best for Batch Processing of Large Datasets\n\u2705 Efficient for storing and processing massive datasets using HDFS (Hadoop Distributed File System).\n\u2705 Ideal for historical data analysis and ETL pipelines.\n\ud83d\udccc Example Use Case: Analyzing customer behavior data over the past 5 years.\n\n\ud83d\udd39 Apache Spark \u2013 Best for Fast Distributed Data Processing\n\u2705 Faster than Hadoop for processing large datasets in memory.\n\u2705 Supports batch, streaming, and machine learning workloads.\n\ud83d\udccc Example Use Case: Building predictive models with millions of records.\n\n\ud83d\ude80 Which One Should You Use?\n\ud83d\udd38 Use Kafka for real-time event streaming.\n\ud83d\udd38 Use Hadoop for cost-effective batch processing of historical data.\n\ud83d\udd38 Use Spark for fast, scalable data analytics with in-memory computing.\n\n\ud83d\udca1 Pro Tip: Combining these tools can unlock powerful data pipelines, (Kafka for data ingestion, Spark for real-time processing, and Hadoop for long-term data storage).",
+        "engagement": 545,
+        "line_count": 17,
+        "language": "English",
+        "tags": [
+            "Hadoop",
+            "Kafka"
+        ]
+    }
+]
