@@ -1,0 +1,5 @@
+streamlit==1.42.2
+langchain==0.3.21
+langchain-core==0.3.45
+langchain_groq==0.3.0
+pandas==2.2.3
