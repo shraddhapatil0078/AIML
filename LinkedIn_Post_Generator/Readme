@@ -5,6 +5,8 @@ The projects works as per the below steps
 2. Process the raw JSON analyze using llama 3.2 model and make processed JSON with post with parameters Tags, Langauge and Length
 3. Generate prompt with selected inputs from user and filtered posts from processed json based on selected inputs, give those post as an example to prompt to build a post as per the style using Llama 3.2 model.
 
+Note: You need to create .env file in project to store API key for groq cloud to fetch LLM model
+
 The pre-requisites for this project is mentioned in requirements.txt file
 To get started first install the dependencies 
 Run the streamlit app using below command-
