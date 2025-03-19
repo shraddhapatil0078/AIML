@@ -1,0 +1,11 @@
+The AI tool will analyze the posts of LinkedIn Influencers and help them to create the new posts based on the writing style as per the their earlier posts
+User is suppose to select the tag/topics, length and langauge for the post.
+The projects works as per the below steps
+1. Collect LinkedIn posts and generate raw JSON file with post and additional parameters
+2. Process the raw JSON analyze using llama 3.2 model and make processed JSON with post with parameters Tags, Langauge and Length
+3. Generate prompt with selected inputs from user and filtered posts from processed json based on selected inputs, give those post as an example to prompt to build a post as per the style using Llama 3.2 model.
+
+The pre-requisites for this project is mentioned in requirements.txt file
+To get started first install the dependencies 
+Run the streamlit app using below command-
+streamlit run main.py 
